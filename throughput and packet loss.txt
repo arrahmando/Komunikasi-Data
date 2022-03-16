@@ -1,0 +1,12 @@
+througput : kecepatan rata2 data yang diterima oleh suatu node dalam selang waktu pengamatan tertentu.
+rumus : jumlah data dikirim(bytes)/waktu pengiriman(time span) = hasil x 8
+32815574 / 254.953 = 128712,24892431153977399756033465 * 8 = 1029697,9913944923181919804826772
+througput = 1029 k
+
+paket lossPacket : banyak paket yang hilang pada suatu jaringan paket yang disebabkan oleh tabtakan (collis penuhnya
+kapasitas jaringan, dan penurunan paket yang disebabkan oleh habisnya TTL (Time To Live) paket.
+rumus packetloss : jumlah paket yangdikirim - jumlah paket yang diterima/jumlah paket yang dikirim x 100%
+(31913-(31913-687)) / 31913 * 100%
+(31913 - 31226) / 31913 * 100%
+687 / 31913 * 100 = 2,1527277285118917055745307554915
+lossPacket = 2,1527277285118917055745307554915
